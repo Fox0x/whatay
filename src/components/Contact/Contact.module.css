@@ -1,0 +1,27 @@
+.contact__wrapper {
+    width: 100vw;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    background-color: #ffffff4d;
+    color: #222426;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.contact__wrapper:hover {
+    background-color: #22242680;
+    color: azure;
+}
+
+.address__text {
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.address__text > a {
+    text-decoration: none;
+}
