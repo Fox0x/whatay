@@ -1,4 +1,5 @@
 .cardSet__wrapper {
+	width: max-content;
 	height: 100vh;
 	display: flex;
 	flex-direction: row;
@@ -6,5 +7,6 @@
 	align-items: center;
 	justify-content: space-evenly;
 	backdrop-filter: blur(10px);
-	overflow: visible;
+	overflow-x: auto;
+	padding-left: 50px;
 }

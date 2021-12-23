@@ -1,13 +1,14 @@
 .card__wrapper {
 	width: 300px;
 	height: 500px;
-	overflow: hidden;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 	transition: box-shadow 0.5s ease;
+	overflow: hidden;
+	margin-right: 50px;
 }
 
 .card__wrapper:hover {
-	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1);
+	box-shadow: 0px 10px 30px #000;
 }
 
 .card__content {
