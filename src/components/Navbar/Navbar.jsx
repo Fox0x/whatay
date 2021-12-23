@@ -26,6 +26,12 @@ export default function Navbar() {
 						Images
 					</a>
 				</li>
+
+				<li className={css.navbar__item}>
+					<a href="#Cards" className={css.navbar__link}>
+						Cards
+					</a>
+				</li>
 			</ul>
 		</nav>
 	);

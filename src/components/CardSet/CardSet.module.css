@@ -1,0 +1,10 @@
+.cardSet__wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+	backdrop-filter: blur(10px);
+	overflow: visible;
+}
